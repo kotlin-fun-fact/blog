@@ -17,8 +17,9 @@ Git lacks built-in local branch pruning (like `git fetch -p` for remote ones), a
 prints something that is not a list of branches, unless you handle it explicitly. I used a Groovy library
 [grgit](https://github.com/ajoberstar/grgit) (a Groovy wrapper for [JGit](https://www.eclipse.org/jgit/), unfortunately
 no longer maintained, but still usable) to have an object-based access to git. See
-https://github.com/krzema12/PersonalConfigs/blob/master/scripts/removeLocalMergedBranches.main.kts. Shebang makes
-executing it as easy as calling `removeLocalMergedBranches.main.kts` if it's in your `PATH`, from your git repo.
+[krzema12/PersonalConfigs/.../removeLocalMergedBranches.main.kts](https://github.com/krzema12/PersonalConfigs/blob/master/scripts/removeLocalMergedBranches.main.kts).
+Shebang makes executing it as easy as calling `removeLocalMergedBranches.main.kts` if it's in your `PATH`, from your git
+repo.
 
 Demo:
 ![Kotlin scripting demo]({{site.baseurl}}/assets/kotlin-scripting-demo.png)
