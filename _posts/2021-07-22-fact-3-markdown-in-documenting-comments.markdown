@@ -6,7 +6,7 @@ categories: jekyll update
 ---
 **TL;DR**: Where Java uses verbose HTML markup, in Kotlin you can use Markdown.
 
-Kotlin use [KDoc](https://kotlinlang.org/docs/kotlin-doc.html) to document the code. It's not an extension of Javadoc,
+Kotlin uses [KDoc](https://kotlinlang.org/docs/kotlin-doc.html) to document the code. It's not an extension of Javadoc,
 but not by accident it's similar to it. However, Kotlin designers decided to go another way for certain features.
 
 Let's take a look at an example Javadoc:
